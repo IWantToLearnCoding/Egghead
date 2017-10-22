@@ -1,8 +1,10 @@
 import React from 'react';
-import './App.css';
+import { Router, Route, Link, hashHistory } from 'react-router';
 
-class App extends React.Component {
-    constructor() {}
-}
+const Home = () => <div>Home</div>
+const About = () => <div>About</div>
+const Contact = () => <div>Contact</div>
+
+class
 
 export default App;
